@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pc点击登录</title>
+    <link rel="stylesheet" href="../css/login_ercode.css">
+
+
+</head>
+
+<body>
+    <!-- 
+        #0084ff
+        color: #0084FF;
+     -->
+   <div >
+    <div  class="main">
+        <div class="main_bg">
+           <a href="../index.html"> <img width="100px" style="" src="../images/t2.png" alt=""></a>
+            <div class="loginBox" style="margin-top: -20px;">
+                <!-- signContent -->
+                <div class="signContent">
+                    <div class="signContainer">
+                        <form action="" class="loginForm" id="form_key" data-module="smsFrom" onsubmit="return checkForm()">
+                            <!-- tab -->
+                            <div class="tabBox">
+                                <div class="tabBoxSwitch">
+                                    <ul class="tabBoxSwitchUl">
+                                        <li class="tab-active" data-id="0">免密码登录</li>
+                                        <li data-id="1">密码登录</li>
+                                    </ul>
+                                    <div class="ercode_tab swicth-ercode">
+                                        <div style="padding: 10px;">
+                                            <svg t="1624345619035" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6839" width="200" height="200"><path d="M178.3 540.9v-60.3H118v60.3h60.3z m20 284.1h121.3V702.4H198.3V825z m343.1-545.2h-60.7v60.1h60.7v-60.1z m-221.7-81.1H198.3v122.6h121.3V198.7z m362.4 423.4h-60.2v60.1h181v-60.1h-60v-60.9h-60.7v60.9zM541.4 117.8h-60.7V239h60.7V117.8z m-0.3 463.9h60.7v-59.8h60.4v-61.4h-60.7v60.4h-60.4v60.8z m201.8 201.5V723h-60.7v60.1h60.7z m60.4-282.4h-60.7v60.1h60.7v-60.1zM420.1 98.2H97.7V420h322.4V98.2zM380.2 380H138.3V138.8h241.9V380z m463.1 160.8H904v-58.9h-60.7v58.9z m0 302.5h-40v-59.8h-60.7v59.8h-60.5v61.4H904v-59.2h0.1V722.4h-60.7v120.9z m0-161.5H904v-60.1h-60.7v60.1z m-19.9-483.1H702v122.6h121.3V198.7zM601.7 98.2V420h322.4V98.2H601.7zM883.6 380H641.7V138.8h241.9V380zM541.4 722.1h60.4v-58.9h-60.4v-81.4h-60.7v321.4h60.4v0.8h60.7v-60.1h-60.4V722.1zM238.9 541.6h201.7v-61H238.9v61z m302.5-161.3h-61v60.1h61v-60.1zM601.5 843h60.7v-60.1h-60.7V843zM97.6 924.1H420V602.3H97.6v321.8z m40.7-281.2h241.9v241.2H138.3V642.9z" p-id="6840"></path></svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- tabContent -->
+                            <div class="tabContent">
+                                <!-- tabContentPhone -->
+                                <div class="tabcont  tabContentPhone active">
+                                    <div class="tabcontent">
+                                        <div class="phoneBox">
+                                            <div class="phoneGroup">
+                                                <button class="phone-btn selectBtn" type="button" data-type="selected">
+                                                    <span>中国 +86</span>
+                                                    <svg class="Zi--Select Select-arrow" fill="currentColor"
+                                                        viewBox="0 0 24 24">
+                                                        <path
+                                                            d="M12 16.183l2.716-2.966a.757.757 0 0 1 1.064.001.738.738 0 0 1 0 1.052l-3.247 3.512a.758.758 0 0 1-1.064 0L8.22 14.27a.738.738 0 0 1 0-1.052.758.758 0 0 1 1.063 0L12 16.183zm0-9.365L9.284 9.782a.758.758 0 0 1-1.064 0 .738.738 0 0 1 0-1.052l3.248-3.512a.758.758 0 0 1 1.065 0L15.78 8.73a.738.738 0 0 1 0 1.052.757.757 0 0 1-1.063.001L12 6.818z"
+                                                            fill-rule="evenodd"></path>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <div class="selectConentent">
+                                                <div class="selectOptions">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <span class="line-show"></span>
+                                        <div class="phoneInputGroup">
+                                            <label for="" class="inputLabel phoneLabel">
+                                                <input type="text" value="" name="" id="phoneInput"
+                                                    class="inputStyle phoneInput" placeholder="手机号" autocomplete="off">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="tabcontent">
+                                        <div class="phoneInputGroup">
+                                            <label for="" class="inputLabel">
+                                                <input type="number" value="" name="" id="msgInput"
+                                                    class="inputStyle msgInput" placeholder="输入 6 位短信验证码"
+                                                    autocomplete="off">
+                                            </label>
+                                        </div>
+                                        <div class="phoneGroup">
+                                            <button class="phone-btn msgBtn" type="button">
+                                                获取短信验证码
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- tabContentAccount -->
+                                <div class="tabcont tabContentAccount">
+                                    <div class="tabcontent">
+                                        <div class="login-out-phoneBox">
+                                            <div class="phoneBox">
+                                                <div class="phoneGroup">
+                                                    <button class="phone-btn selectBtn" type="button"
+                                                        data-type="selected">
+                                                        <span>中国 +86</span>
+                                                        <svg class="Zi--Select Select-arrow" fill="currentColor"
+                                                            viewBox="0 0 24 24">
+                                                            <path
+                                                                d="M12 16.183l2.716-2.966a.757.757 0 0 1 1.064.001.738.738 0 0 1 0 1.052l-3.247 3.512a.758.758 0 0 1-1.064 0L8.22 14.27a.738.738 0 0 1 0-1.052.758.758 0 0 1 1.063 0L12 16.183zm0-9.365L9.284 9.782a.758.758 0 0 1-1.064 0 .738.738 0 0 1 0-1.052l3.248-3.512a.758.758 0 0 1 1.065 0L15.78 8.73a.738.738 0 0 1 0 1.052.757.757 0 0 1-1.063.001L12 6.818z"
+                                                                fill-rule="evenodd"></path>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="selectConentent">
+                                                    <div class="selectOptions">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <span class="line-show"></span>
+                                        </div>
+
+                                        <div class="phoneInputGroup">
+                                            <label for="" class="inputLabel phoneLabel">
+                                                <input type="text" value="" name="" id="accountUser"
+                                                    class="inputStyle accountUsername" placeholder="手机号或邮箱"
+                                                    autocomplete="off">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="tabcontent">
+                                        <div class="phoneInputGroup">
+                                            <label for="" class="inputLabel phoneLabel">
+                                                <input type="password" value="" name="" id="accountpwd"
+                                                    class="inputStyle accountPwd" placeholder="密码" autocomplete="off">
+                                            </label>
+
+                                        </div>
+                                        <button tabindex="-1" type="button" class="button SignFlow-switchPassword">
+                                            <span style="display: inline-flex; align-items: center;">​
+                                                <svg class="Zi Zi--Eye Button-zi" fill="currentColor"
+                                                    viewBox="0 0 24 24" width="1.2em" height="1.2em">
+                                                    <path
+                                                        d="M1 11.5C1 15 7 19 12 19s11-4 11-7.5S17 4 12 4 1 8 1 11.5zm11 5c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm-3-5c0 1.66 1.34 3 3 3s3-1.34 3-3-1.34-3-3-3-3 1.34-3 3z"
+                                                        fill-rule="evenodd">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- loginbox -->
+                            <div class="login_box">
+                                <button type="button" class="phone-btn out-login-btn-shw out-login-btn SignFlow-switchLogin"
+                                    data-btn="out-login-btn" data-clilck="isClick">海外手机登录</button>
+                                <button type="button" class="phone-btn voice-btn sms-voice-btn" data-btn="sms-voice-btn"
+                                    data-forV="forget-voice">接收语音验证码</button>
+                            </div>
+                            <button id="submit" type="submit" class="button fromSubmit"
+                                data-type="smsSubmit">注册/登录</button>
+                            <!-- tips -->
+                            <div class="SignContainer-tip">
+                                <div>
+                                    <div>未注册手机验证后自动登录，注册即代表同意<a href="#">《O型学霸协议》</a><a href="#">《隐私保护指引》</a></div>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- ercodeSgin -->
+                        <div class="ercodeSignBox">
+                            <div class="ercode_tab switch-input">
+                                <div style="padding: 10px;">
+                                    <svg t="1624345389742" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3817" width="200" height="200"><path d="M896 128a128 128 0 0 1 128 128v512a128 128 0 0 1-128 128H128a128 128 0 0 1-128-128V256a128 128 0 0 1 128-128h768z m0 64h-0.064L557.248 530.752a64 64 0 0 1-90.496 0L128 192a64 64 0 0 0-64 64v512a64 64 0 0 0 64 64h768a64 64 0 0 0 64-64V256a64 64 0 0 0-64-64z m-90.624 0H218.56L512 485.504 805.376 192z" p-id="3818"></path></svg>
+                                </div>
+                            </div>
+                            <!-- ercodeConent -->
+                            <div class="ercodeContent">
+                                <div class="Qrcode-title">扫码登录</div>
+                                <div class="ercodeBox">
+                                    <div class="Qrcode-images" >
+                                        <img style="width: 160px;" src="../images/210617105343_tkh.png" alt="">
+                                    </div>
+                                    <p>打开<a href="#" target="_blank" rel="noopener noreferrer">
+                                            O型学霸 App</a></p>
+                                    <p>在「我的」页面右上角打开扫一扫</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--  -->
+                <div class="css-1hmxk26"></div>
+                <!-- signSocial -->
+                <div class="footSign signSocial">
+                    <span class="social-title">社交帐号登录</span>
+                    <span class="Login-socialButtonGroup">
+                        <button type="button" class="button Login-socialButton">
+                            <svg class="Zi Zi--WeChat Login-socialIcon" fill="#60c84d" viewBox="0 0 24 24" width="20"
+                                height="20">
+                                <path
+                                    d="M2.224 21.667s4.24-1.825 4.788-2.056C15.029 23.141 22 17.714 22 11.898 22 6.984 17.523 3 12 3S2 6.984 2 11.898c0 1.86.64 3.585 1.737 5.013-.274.833-1.513 4.756-1.513 4.756zm5.943-9.707c.69 0 1.25-.569 1.25-1.271a1.26 1.26 0 0 0-1.25-1.271c-.69 0-1.25.569-1.25 1.27 0 .703.56 1.272 1.25 1.272zm7.583 0c.69 0 1.25-.569 1.25-1.271a1.26 1.26 0 0 0-1.25-1.271c-.69 0-1.25.569-1.25 1.27 0 .703.56 1.272 1.25 1.272z"
+                                    fill-rule="evenodd"></path>
+                            </svg>
+                            微信
+                        </button>
+                        <button type="button" class="button Login-socialButton ">
+                            <svg class="Zi Zi--QQ Login-socialIcon" fill="#50c8fd" viewBox="0 0 24 24" width="20"
+                                height="20">
+                                <path
+                                    d="M12.003 2c-2.265 0-6.29 1.364-6.29 7.325v1.195S3.55 14.96 3.55 17.474c0 .665.17 1.025.281 1.025.114 0 .902-.484 1.748-2.072 0 0-.18 2.197 1.904 3.967 0 0-1.77.495-1.77 1.182 0 .686 4.078.43 6.29 0 2.239.425 6.287.687 6.287 0 0-.688-1.768-1.182-1.768-1.182 2.085-1.77 1.905-3.967 1.905-3.967.845 1.588 1.634 2.072 1.746 2.072.111 0 .283-.36.283-1.025 0-2.514-2.166-6.954-2.166-6.954V9.325C18.29 3.364 14.268 2 12.003 2z"
+                                    fill-rule="evenodd">
+                                </path>
+                            </svg>
+                            QQ
+                        </button>
+                        <button type="button" class="button Login-socialButton">
+                            <svg class="Zi Zi--Weibo Login-socialIcon" fill="#fb6622" viewBox="0 0 24 24" width="20"
+                                height="20">
+                                <path fill="#FB6622"
+                                    d="M15.518 3.06c8.834-.854 7.395 7.732 7.394 7.731-.625 1.439-1.673.309-1.673.309.596-7.519-5.692-6.329-5.692-6.329-.898-1.067-.029-1.711-.029-1.711zm4.131 6.985c-.661 1.01-1.377.126-1.376.126.205-3.179-2.396-2.598-2.396-2.598-.719-.765-.091-1.346-.091-1.346 4.882-.551 3.863 3.818 3.863 3.818zM5.317 7.519s4.615-3.86 6.443-1.328c0 0 .662 1.08-.111 2.797.003-.003 3.723-1.96 5.408.159 0 0 .848 1.095-.191 2.649 0 0 2.918-.099 2.918 2.715 0 2.811-4.104 6.44-9.315 6.44-5.214 0-8.026-2.092-8.596-3.102 0 0-3.475-4.495 3.444-10.33zm10.448 7.792s.232-4.411-5.71-4.207c-6.652.231-6.579 4.654-6.579 4.654.021.39.097 3.713 5.842 3.713 5.98 0 6.447-4.16 6.447-4.16zm-9.882.86s-.059-3.632 3.804-3.561c3.412.06 3.206 3.165 3.206 3.165s-.026 2.979-3.684 2.979c-3.288 0-3.326-2.583-3.326-2.583zm2.528 1.037c.672 0 1.212-.447 1.212-.998 0-.551-.543-.998-1.212-.998-.672 0-1.215.447-1.215.998 0 .551.546.998 1.215.998z"
+                                    fill-rule="evenodd">
+                                </path>
+                            </svg>
+                            微博
+                        </button>
+                    </span>
+                </div>
+                <!-- signDownload -->
+                <div class="footSign signDownload">
+                    <div class="css-eow14e rt"> 
+                        <button class="button css-c01qo8" type="button">
+                            <span style="display: inline-flex; align-items: center;">​
+                             <img style="width: 50px;height: 50px;" src="../images/t2.png" alt="">
+                            </span>
+                            下载O型学霸 App
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+    </div>
+    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/qrcode.js"></script>
+    <!-- <svg width="52" height="52" xmlns:xlink="http://www.w3.org/1999/xlink" fill="currentColor"><defs><path id="id-14580708-a" d="M0 0h48a4 4 0 0 1 4 4v48L0 0z"></path></defs><g fill="none" fill-rule="evenodd"><mask id="id-14580708-b" fill="#fff"><use xlink:href="#id-14580708-a"></use></mask><use fill="#0084FF" xlink:href="#id-14580708-a"></use><path fill="#FFF" d="M22.125 4h13.75A4.125 4.125 0 0 1 40 8.125v27.75A4.125 4.125 0 0 1 35.875 40h-13.75A4.125 4.125 0 0 1 18 35.875V8.125A4.125 4.125 0 0 1 22.125 4zm6.938 34.222c1.139 0 2.062-.945 2.062-2.11 0-1.167-.923-2.112-2.063-2.112-1.139 0-2.062.945-2.062 2.111 0 1.166.923 2.111 2.063 2.111zM21 8.333v24h16v-24H21z" mask="url(#id-14580708-b)"></path><g mask="url(#id-14580708-b)"><path fill="#FFF" d="M46.996 15.482L39 19.064l-7.996-3.582A1.6 1.6 0 0 1 32.6 14h12.8a1.6 1.6 0 0 1 1.596 1.482zM47 16.646V24.4a1.6 1.6 0 0 1-1.6 1.6H32.6a1.6 1.6 0 0 1-1.6-1.6v-7.754l8 3.584 8-3.584z"></path><path fill="#0084FF" d="M31 15.483v1.17l8 3.577 8-3.577v-1.17l-8 3.581z" fill-rule="nonzero"></path></g></g></svg> -->
+</body>
+
+</html>

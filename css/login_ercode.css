@@ -1,0 +1,642 @@
+/* commen:start */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+    font-size: 15px;
+    color: #1a1a1a;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    color: #1a1a1a;
+}
+
+.lf {
+    float: left;
+}
+
+.rt {
+    float: right;
+}
+
+.button {
+    display: inline-block;
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 32px;
+    color: #8590a6;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    border: none;
+    border-radius: 3px;
+}
+
+button {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.unView {
+    display: none;
+}
+
+/* commen:start */
+/* main */
+.main {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+}
+
+.main_bg {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../images/55D1EDFDEEAC5CC4720BCF830F2_6E1BFFB2_C4429.jpg')!important;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+
+/* loginBox */
+.loginBox {
+    box-sizing: border-box;
+    margin:auto;
+    min-width: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, 0.1);
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    width: 400px;
+    /* overflow: hidden; */
+}
+
+.signContent {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.signContainer {
+    position: relative;
+    border-radius: 4px 4px 0 0;
+    /* overflow: hidden; */
+}
+
+.loginForm {
+    padding: 0 24px 84px;
+}
+
+.loginForm .tabBoxSwitch {}
+
+.loginForm .tabBoxSwitch .tabBoxSwitchUl {
+    list-style: none;
+}
+
+.loginForm .tabBoxSwitch .tabBoxSwitchUl li {
+    display: inline-block;
+    height: 60px;
+    font-size: 16px;
+    line-height: 60px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.tab-active {
+    position: relative;
+    color: #1a1a1a;
+    font-weight: 600;
+    font-synthesis: style;
+}
+
+
+
+.tab-active::before {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #056739;
+
+}
+
+.tabBox {
+    text-align: left;
+
+}
+
+.ercode_tab {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 0;
+    right: 0;
+}
+
+.ercode_tab svg {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.tabContent {}
+
+.tabcont {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.tabContentPhone {}
+
+.tabContentAccount {
+    /* display: none; */
+}
+
+.tabcontent {
+    margin-top: 24px;
+    border-bottom: 1px solid #ebebeb;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 48px;
+    position: relative;
+}
+
+.phoneBox {
+    position: relative;
+    display: inline-block;
+}
+
+.phoneGroup {
+    display: inline-block;
+    min-width: 72px;
+    text-align: left;
+}
+
+.phone-btn {
+    border: none;
+    height: auto;
+    padding: 0;
+    line-height: inherit;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+.phone-btn:focus {
+    outline: none;
+}
+
+.selectBtn {
+    text-align: left;
+
+    /* padding: 0 16px; */
+
+    color: #8590a6;
+    text-align: center;
+
+    background: none;
+    /* border: 1px solid; */
+    border-radius: 3px;
+    height: calc(100% - 42px);
+
+}
+
+.selectConentent {
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 233;
+    background-color: #ffffff;
+    left: -24px;
+    border: 1px solid #ebebeb;
+    width: 210px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 5px 20px rgba(26, 26, 26, .1);
+    box-shadow: 0 5px 20px rgba(26, 26, 26, .1);
+}
+
+.selectOptions {
+    overflow: auto;
+    position: relative;
+    max-height: 500px;
+    padding: 8px 0;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.selectOptions::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+    background-color: #f6f6f6;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+.selectOptions::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #f6f6f6;
+}
+
+.selectOptions::-webkit-scrollbar-thumb {
+    background-color: #afadad;
+    width: 5px;
+    max-height: 10px;
+    border-radius: 10px;
+
+}
+
+.select-option {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    line-height: 40px;
+    color: #8590a6;
+    text-align: left;
+    background: none;
+    border: none;
+}
+
+/* .select-option:hover{
+    background: #f6f6f6;
+} */
+.line-show {
+    width: 1px;
+    height: 22px;
+    margin: 0 12px;
+    background: #ebebeb;
+}
+
+.phoneInputGroup {
+    display: inline-block;
+    position: relative;
+    width: 213px;
+}
+
+.Select-arrow {
+    margin-left: 8px;
+    fill: currentcolor;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.inputLabel {
+    width: 100%;
+    height: 48px;
+    padding: 0;
+    color: #8590a6;
+    border: none;
+    /* border-bottom: 1px solid #ebebeb; */
+    border-radius: 0;
+    display: flex;
+
+}
+
+.isShow::after {
+    content: attr(data-content);
+    color: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 48px;
+    line-height: 48px;
+    display: flex;
+    z-index: 90;
+}
+
+.inputStyle {
+    display: inline-block;
+    outline: none;
+    flex: 1 1;
+    padding: 0;
+    overflow: hidden;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    background: transparent;
+    border: none;
+    resize: none;
+    z-index: 100;
+}
+
+input.msgInput {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -ms-progress-appearance: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+
+input[type=number]::-webkit-outer-spin-button {
+
+    -webkit-appearance: none;
+
+    appearance: none;
+
+    margin: 0;
+
+}
+
+.msgBtn {
+    position: absolute;
+    top: 24px;
+    right: 0;
+    padding: 4px 0;
+    color: #056736;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.msgBtn:hover,
+.voice-btn:hover {
+    color: #76839b;
+}
+
+.login_box {
+    height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+    position: relative;
+}
+
+.voice-btn {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 32px;
+    color: #8590a6;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    border-radius: 3px;
+    position: absolute;
+    right: 0;
+}
+
+.fromSubmit {
+    color: #fff;
+    background-color: #056736;
+    width: 100%;
+    margin-top: 30px;
+    height: 36px;
+    border-color: #056736;
+}
+
+.SignFlow-switchPassword {
+    position: absolute;
+    right: 0;
+}
+.SignFlow-switchLogin{
+    position: absolute;
+    left: 0;
+}
+.out-login-btn-shw {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 32px;
+    color: #056736;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    border-radius: 3px;
+    display: none;
+}
+
+.out-login-btn-shw:hover {
+    color: #76839b;
+}
+
+.out-login-btn {}
+
+.login-out-phoneBox {
+    display: none;
+}
+
+.SignContainer-tip {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 12px 24px;
+    color: grey;
+    font-size: 13px;
+    text-align: left;
+}
+
+.SignContainer-tip a {
+    color: grey;
+    text-decoration: none;
+}
+
+.Qrcode-title {}
+
+.ercodeContent {
+    /* display: none; */
+}
+
+
+.ercodeSignBox {
+    position: relative;
+    text-align: center;
+    padding: 40px 0;
+    display: none;
+}
+
+.Qrcode-title {
+    font-size: 24px;
+    color: #1a1a1a;
+    line-height: 33px;
+    margin-bottom: 50px;
+    margin-top: 3px;
+}
+
+.ercodeBox {
+    height: 210px;
+}
+
+.ercodeBox .Qrcode-img {
+    margin: 0 auto 15px;
+    line-height: 0;
+    height: 150px;
+    width: 150px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.ercodeBox p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.ercodeBox p a {
+    color: #056736;
+}
+
+.css-1hmxk26 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    border-top: 1px solid;
+    border-color: #EBEBEB;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.footSign {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: #8590a6;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.signSocial {}
+
+.Login-socialButtonGroup {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 2px;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.Login-socialButton {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    height: auto;
+    padding: 0 6px;
+    line-height: inherit;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.Login-socialIcon {
+    margin-right: 6px;
+}
+
+.signDownload {
+    background-color: #f6f6f6;
+    color: #056736;
+}
+
+.css-eow14e {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: right;
+}
+
+.css-c01qo8 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    text-align: center;
+    line-height: inherit;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-size: inherit;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    background-color: #056736;
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #056736;
+    border-radius: 4px;
+    background-color: unset;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+}

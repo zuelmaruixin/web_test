@@ -1,0 +1,732 @@
+{
+    "CountryNum": [
+        {
+            "countryName": " 中国",
+            "number": " +86"
+        },
+        {
+            "countryName": " 美国",
+            "number": " +1"
+        },
+        {
+            "countryName": " 日本",
+            "number": " +81"
+        },
+        {
+            "countryName": " 中国香港",
+            "number": " +852"
+        },
+        {
+            "countryName": " 中国澳门",
+            "number": " +853"
+        },
+        {
+            "countryName": " 中国台湾",
+            "number": " +886"
+        },
+        {
+            "countryName": " 马来西亚",
+            "number": " +60"
+        },
+        {
+            "countryName": " 澳大利亚",
+            "number": " +61"
+        },
+        {
+            "countryName": " 加拿大",
+            "number": " +1"
+        },
+        {
+            "countryName": " 英国",
+            "number": " +44"
+        },
+        {
+            "countryName": " 新加坡",
+            "number": " +65"
+        },
+        {
+            "countryName": " 德国",
+            "number": " +49"
+        },
+        {
+            "countryName": " 俄罗斯",
+            "number": " +7"
+        },
+        {
+            "countryName": " 埃及",
+            "number": " +20"
+        },
+        {
+            "countryName": " 南非",
+            "number": " +27"
+        },
+        {
+            "countryName": " 希腊",
+            "number": " +30"
+        },
+        {
+            "countryName": " 荷兰",
+            "number": " +31"
+        },
+        {
+            "countryName": " 比利时",
+            "number": " +32"
+        },
+        {
+            "countryName": " 法国",
+            "number": " +33"
+        },
+        {
+            "countryName": " 西班牙",
+            "number": " +34"
+        },
+        {
+            "countryName": " 匈牙利",
+            "number": " +36"
+        },
+        {
+            "countryName": " 意大利",
+            "number": " +39"
+        },
+        {
+            "countryName": " 罗马尼亚",
+            "number": " +40"
+        },
+        {
+            "countryName": " 瑞士",
+            "number": " +41"
+        },
+        {
+            "countryName": " 奥地利",
+            "number": " +43"
+        },
+        {
+            "countryName": " 丹麦",
+            "number": " +45"
+        },
+        {
+            "countryName": " 瑞典",
+            "number": " +46"
+        },
+        {
+            "countryName": " 挪威",
+            "number": " +47"
+        },
+        {
+            "countryName": " 波兰",
+            "number": " +48"
+        },
+        {
+            "countryName": " 秘鲁",
+            "number": " +51"
+        },
+        {
+            "countryName": " 墨西哥",
+            "number": " +52"
+        },
+        {
+            "countryName": " 古巴",
+            "number": " +53"
+        },
+        {
+            "countryName": " 阿根廷",
+            "number": " +54"
+        },
+        {
+            "countryName": " 巴西",
+            "number": " +55"
+        },
+        {
+            "countryName": " 智利",
+            "number": " +56"
+        },
+        {
+            "countryName": " 哥伦比亚",
+            "number": " +57"
+        },
+        {
+            "countryName": " 委内瑞拉",
+            "number": " +58"
+        },
+        {
+            "countryName": " 印度尼西亚",
+            "number": " +62"
+        },
+        {
+            "countryName": " 菲律宾",
+            "number": " +63"
+        },
+        {
+            "countryName": " 新西兰",
+            "number": " +64"
+        },
+        {
+            "countryName": " 泰国",
+            "number": " +66"
+        },
+        {
+            "countryName": " 哈萨克斯坦",
+            "number": " +7"
+        },
+        {
+            "countryName": " 韩国",
+            "number": " +82"
+        },
+        {
+            "countryName": " 越南",
+            "number": " +84"
+        },
+        {
+            "countryName": " 土耳其",
+            "number": " +90"
+        },
+        {
+            "countryName": " 印度",
+            "number": " +91"
+        },
+        {
+            "countryName": " 巴基斯坦",
+            "number": " +92"
+        },
+        {
+            "countryName": " 阿富汗",
+            "number": " +93"
+        },
+        {
+            "countryName": " 斯里兰卡",
+            "number": " +94"
+        },
+        {
+            "countryName": " 缅甸",
+            "number": " +95"
+        },
+        {
+            "countryName": " 伊朗",
+            "number": " +98"
+        },
+        {
+            "countryName": " 摩洛哥",
+            "number": " +212"
+        },
+        {
+            "countryName": " 阿尔及利亚",
+            "number": " +213"
+        },
+        {
+            "countryName": " 突尼斯",
+            "number": " +216"
+        },
+        {
+            "countryName": " 利比亚",
+            "number": " +218"
+        },
+        {
+            "countryName": " 冈比亚",
+            "number": " +220"
+        },
+        {
+            "countryName": " 塞内加尔",
+            "number": " +221"
+        },
+        {
+            "countryName": " 马里",
+            "number": " +223"
+        },
+        {
+            "countryName": " 几内亚",
+            "number": " +224"
+        },
+        {
+            "countryName": " 科特迪瓦",
+            "number": " +225"
+        },
+        {
+            "countryName": " 布基纳法索",
+            "number": " +226"
+        },
+        {
+            "countryName": " 尼日尔",
+            "number": " +227"
+        },
+        {
+            "countryName": " 多哥",
+            "number": " +228"
+        },
+        {
+            "countryName": " 贝宁",
+            "number": " +229"
+        },
+        {
+            "countryName": " 毛里求斯",
+            "number": " +230"
+        },
+        {
+            "countryName": " 利比里亚",
+            "number": " +231"
+        },
+        {
+            "countryName": " 塞拉利昂",
+            "number": " +232"
+        },
+        {
+            "countryName": " 加纳",
+            "number": " +233"
+        },
+        {
+            "countryName": " 尼日利亚",
+            "number": " +234"
+        },
+        {
+            "countryName": " 乍得",
+            "number": " +235"
+        },
+        {
+            "countryName": " 中非共和国",
+            "number": " +236"
+        },
+        {
+            "countryName": " 喀麦隆",
+            "number": " +237"
+        },
+        {
+            "countryName": " 圣多美和普林西比",
+            "number": " +239"
+        },
+        {
+            "countryName": " 加蓬",
+            "number": " +241"
+        },
+        {
+            "countryName": " 刚果民主共和国",
+            "number": " +243"
+        },
+        {
+            "countryName": " 安哥拉",
+            "number": " +244"
+        },
+        {
+            "countryName": " 阿森松岛",
+            "number": " +247"
+        },
+        {
+            "countryName": " 塞舌尔",
+            "number": " +248"
+        },
+        {
+            "countryName": " 苏丹",
+            "number": " +249"
+        },
+        {
+            "countryName": " 埃塞俄比亚",
+            "number": " +251"
+        },
+        {
+            "countryName": " 索马里",
+            "number": " +252"
+        },
+        {
+            "countryName": " 吉布提",
+            "number": " +253"
+        },
+        {
+            "countryName": " 肯尼亚",
+            "number": " +254"
+        },
+        {
+            "countryName": " 坦桑尼亚",
+            "number": " +255"
+        },
+        {
+            "countryName": " 乌干达",
+            "number": " +256"
+        },
+        {
+            "countryName": " 布隆迪",
+            "number": " +257"
+        },
+        {
+            "countryName": " 莫桑比克",
+            "number": " +258"
+        },
+        {
+            "countryName": " 赞比亚",
+            "number": " +260"
+        },
+        {
+            "countryName": " 马达加斯加",
+            "number": " +261"
+        },
+        {
+            "countryName": " 津巴布韦",
+            "number": " +263"
+        },
+        {
+            "countryName": " 纳米比亚",
+            "number": " +264"
+        },
+        {
+            "countryName": " 马拉维",
+            "number": " +265"
+        },
+        {
+            "countryName": " 莱索托",
+            "number": " +266"
+        },
+        {
+            "countryName": " 博茨瓦纳",
+            "number": " +267"
+        },
+        {
+            "countryName": " 斯威士兰",
+            "number": " +268"
+        },
+        {
+            "countryName": " 直布罗陀",
+            "number": " +350"
+        },
+        {
+            "countryName": " 葡萄牙",
+            "number": " +351"
+        },
+        {
+            "countryName": " 卢森堡",
+            "number": " +352"
+        },
+        {
+            "countryName": " 爱尔兰",
+            "number": " +353"
+        },
+        {
+            "countryName": " 冰岛",
+            "number": " +354"
+        },
+        {
+            "countryName": " 阿尔巴尼亚",
+            "number": " +355"
+        },
+        {
+            "countryName": " 马耳他",
+            "number": " +356"
+        },
+        {
+            "countryName": " 塞浦路斯",
+            "number": " +357"
+        },
+        {
+            "countryName": " 芬兰",
+            "number": " +358"
+        },
+        {
+            "countryName": " 保加利亚",
+            "number": " +359"
+        },
+        {
+            "countryName": " 立陶宛",
+            "number": " +370"
+        },
+        {
+            "countryName": " 拉脱维亚",
+            "number": " +371"
+        },
+        {
+            "countryName": " 爱沙尼亚",
+            "number": " +372"
+        },
+        {
+            "countryName": " 摩尔多瓦",
+            "number": " +373"
+        },
+        {
+            "countryName": " 亚美尼亚",
+            "number": " +374"
+        },
+        {
+            "countryName": " 白俄罗斯",
+            "number": " +375"
+        },
+        {
+            "countryName": " 安道尔共和国",
+            "number": " +376"
+        },
+        {
+            "countryName": " 摩纳哥",
+            "number": " +377"
+        },
+        {
+            "countryName": " 圣马力诺",
+            "number": " +378"
+        },
+        {
+            "countryName": " 乌克兰",
+            "number": " +380"
+        },
+        {
+            "countryName": " 斯洛文尼亚",
+            "number": " +386"
+        },
+        {
+            "countryName": " 捷克",
+            "number": " +420"
+        },
+        {
+            "countryName": " 斯洛伐克",
+            "number": " +421"
+        },
+        {
+            "countryName": " 列支敦士登",
+            "number": " +423"
+        },
+        {
+            "countryName": " 伯利兹",
+            "number": " +501"
+        },
+        {
+            "countryName": " 瓜地马拉",
+            "number": " +502"
+        },
+        {
+            "countryName": " 萨尔瓦多",
+            "number": " +503"
+        },
+        {
+            "countryName": " 洪都拉斯",
+            "number": " +504"
+        },
+        {
+            "countryName": " 尼加拉瓜",
+            "number": " +505"
+        },
+        {
+            "countryName": " 哥斯达黎加",
+            "number": " +506"
+        },
+        {
+            "countryName": " 巴拿马",
+            "number": " +507"
+        },
+        {
+            "countryName": " 海地",
+            "number": " +509"
+        },
+        {
+            "countryName": " 玻利维亚",
+            "number": " +591"
+        },
+        {
+            "countryName": " 圭亚那",
+            "number": " +592"
+        },
+        {
+            "countryName": " 厄瓜多尔",
+            "number": " +593"
+        },
+        {
+            "countryName": " 法属圭亚那",
+            "number": " +594"
+        },
+        {
+            "countryName": " 巴拉圭",
+            "number": " +595"
+        },
+        {
+            "countryName": " 马提尼克",
+            "number": " +596"
+        },
+        {
+            "countryName": " 苏里南",
+            "number": " +597"
+        },
+        {
+            "countryName": " 乌拉圭",
+            "number": " +598"
+        },
+        {
+            "countryName": " 文莱",
+            "number": " +673"
+        },
+        {
+            "countryName": " 巴布亚新几内亚",
+            "number": " +675"
+        },
+        {
+            "countryName": " 汤加",
+            "number": " +676"
+        },
+        {
+            "countryName": " 所罗门群岛",
+            "number": " +677"
+        },
+        {
+            "countryName": " 斐济",
+            "number": " +679"
+        },
+        {
+            "countryName": " 库克群岛",
+            "number": " +682"
+        },
+        {
+            "countryName": " 法属波利尼西亚",
+            "number": " +689"
+        },
+        {
+            "countryName": " 柬埔寨",
+            "number": " +855"
+        },
+        {
+            "countryName": " 老挝",
+            "number": " +856"
+        },
+        {
+            "countryName": " 孟加拉国",
+            "number": " +880"
+        },
+        {
+            "countryName": " 马尔代夫",
+            "number": " +960"
+        },
+        {
+            "countryName": " 黎巴嫩",
+            "number": " +961"
+        },
+        {
+            "countryName": " 约旦",
+            "number": " +962"
+        },
+        {
+            "countryName": " 叙利亚",
+            "number": " +963"
+        },
+        {
+            "countryName": " 伊拉克",
+            "number": " +964"
+        },
+        {
+            "countryName": " 科威特",
+            "number": " +965"
+        },
+        {
+            "countryName": " 沙特阿拉伯",
+            "number": " +966"
+        },
+        {
+            "countryName": " 也门",
+            "number": " +967"
+        },
+        {
+            "countryName": " 阿曼",
+            "number": " +968"
+        },
+        {
+            "countryName": " 阿拉伯联合酋长国",
+            "number": " +971"
+        },
+        {
+            "countryName": " 以色列",
+            "number": " +972"
+        },
+        {
+            "countryName": " 巴林",
+            "number": " +973"
+        },
+        {
+            "countryName": " 卡塔尔",
+            "number": " +974"
+        },
+        {
+            "countryName": " 蒙古",
+            "number": " +976"
+        },
+        {
+            "countryName": " 尼泊尔",
+            "number": " +977"
+        },
+        {
+            "countryName": " 塔吉克斯坦",
+            "number": " +992"
+        },
+        {
+            "countryName": " 土库曼斯坦",
+            "number": " +993"
+        },
+        {
+            "countryName": " 阿塞拜疆",
+            "number": " +994"
+        },
+        {
+            "countryName": " 格鲁吉亚",
+            "number": " +995"
+        },
+        {
+            "countryName": " 吉尔吉斯斯坦",
+            "number": " +996"
+        },
+        {
+            "countryName": " 乌兹别克斯坦",
+            "number": " +998"
+        },
+        {
+            "countryName": " 巴哈马",
+            "number": " +1242"
+        },
+        {
+            "countryName": " 巴巴多斯",
+            "number": " +1246"
+        },
+        {
+            "countryName": " 安圭拉岛",
+            "number": " +1264"
+        },
+        {
+            "countryName": " 安提瓜和巴布达",
+            "number": " +1268"
+        },
+        {
+            "countryName": " 开曼群岛",
+            "number": " +1345"
+        },
+        {
+            "countryName": " 百慕大群岛",
+            "number": " +1441"
+        },
+        {
+            "countryName": " 格林纳达",
+            "number": " +1473"
+        },
+        {
+            "countryName": " 蒙特塞拉特岛",
+            "number": " +1664"
+        },
+        {
+            "countryName": " 关岛",
+            "number": " +1671"
+        },
+        {
+            "countryName": " 圣露西亚",
+            "number": " +1758"
+        },
+        {
+            "countryName": " 波多黎各",
+            "number": " +1787"
+        },
+        {
+            "countryName": " 多明尼加共和国",
+            "number": " +1809"
+        },
+        {
+            "countryName": " 特立尼达和多巴哥",
+            "number": " +1868"
+        },
+        {
+            "countryName": " 牙买加",
+            "number": " +1876"
+        },
+        {
+            "countryName": " 塞尔维亚共和国",
+            "number": " +381"
+        },
+        {
+            "countryName": " 毛里塔尼亚",
+            "number": " +222"
+        }
+    ]
+}

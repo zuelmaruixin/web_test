@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>引导页</title>
+</head>
+<style>
+    *{
+margin: 0;
+padding: 0;
+    }
+</style>
+<body style="background:url(../images/back.jpg) no-repeat center ;">
+    <img width="80px" src="../images/t2.png" alt="">
+    <div  class="home-content" style="margin-top: 100px;" >
+        <div style="border-radius: 50%;box-shadow:4px 4px 10px whitesmoke; border:1px ; background-color: rgba(255,255,255,0.07);width: 380px;height: 380px;margin-left: auto;margin-right: auto;margin-top: -16vh;" class="home-circle">		
+        <div style="width: 120%;background-image: url(../images/加号\ \(2\).png);margin-left:20px;background-repeat: no-repeat;background-size:80px;background-position: 80%">
+            <div style="height: 150px;width: 300px;padding-left: 30px;padding-top: 60px;" class="home-circle-content">
+                <span style="font-size: 36px;line-height: 50px;color: white;">&nbspA Short Description</span>
+                <span style="font-size: 13px;display: block;margin-top: 30px;color: white;">这些页面是从开始选完web前端开发就由我一个人开始准备的，初衷是作为我们团队创业项目的的官方网站，但由于没有做移动端的适配以及浏览器显示效果等原因，我书写了另一版，这一版用于期末考核，目前登陆界面的后端代码尚未附带，仅仅提供了简单的手机号码校验</span>
+
+            </div>
+        </div>
+        </div>
+        <div style="text-align: center;margin-top: 50px;" onmouseover="mouseOver()" onmouseout="mouseOut()"><a href="../index.html" >
+            <img width="60px" src="../images/右箭头.png" alt="" id="b1">
+          </a></div>
+    </div>
+</body>
+<script type="text/javascript">
+    function mouseOver()
+    {
+    document.getElementById('b1').src ="../images/右箭头 (1).png"
+    }
+    function mouseOut()
+    {
+    document.getElementById('b1').src ="../images/右箭头.png"
+    }
+    </script>
+</html>

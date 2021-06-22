@@ -1,0 +1,105 @@
+/*最外层容器样式*/
+.wrap{
+	top: 50px;
+    left: 260px;
+    width: 150px;
+    height: 150px;
+	position: absolute;
+	
+}
+/*包裹所有容器样式*/
+.cube{
+	top: 50px;
+    left: 280px;
+    width: 200px;
+    height: 200px;
+	position: absolute;
+	transform-style: preserve-3d;
+	animation: rotate 5s linear both infinite;
+}
+@keyframes rotate{
+	from{transform: rotate(0deg) rotate(0deg)}
+		100%{transform: rotateX(360deg) rotateY(360deg)}
+}
+
+
+.cube div{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	opacity: 0.8;
+	transition: all .4s;
+}
+/*定义所有图片样式*/
+.pic{
+	width: 200px;
+	height: 200px;
+}
+.cube .out_front{
+	transform: rotateX(0) translateZ(150px);
+}
+.cube .out_back{
+	transform: rotateX(180deg) translateZ(150px);
+}
+.cube .out_left{
+	transform: rotateX(90deg) translateZ(150px);
+}
+.cube .out_right{
+	transform: rotateX(-90deg) translateZ(150px);
+}
+.cube .out_top{
+	transform: rotateY(90deg) translateZ(150px);
+}
+.cube .out_bottom{
+	transform: rotateY(-90deg) translateZ(150px);
+}
+/*定义小正方体样式*/
+.cube span{
+	display: bloack;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+.cube .in_pic{
+	width: 200px;
+	height: 200px;
+}
+.cube .in_front{
+	transform: rotateY(0deg) translateZ(100px);
+}
+.cube .in_back{
+	transform: translateZ(-100px) rotateY(180deg);
+}
+.cube .in_left{
+	transform: rotateY(90deg) translateZ(100px);
+}
+.cube .in_right{
+	transform: rotateY(-90deg) translateZ(100px);
+}
+.cube .in_top{
+	transform: rotateX(90deg) translateZ(100px);
+}
+.cube .in_bottom{
+	transform: rotateX(-90deg) translateZ(100px);
+}
+/*鼠标移入后样式*/
+.cube:hover .out_front{
+	transform: rotateY(0deg) translateZ(400px);
+}
+.cube:hover .out_back{
+	transform: translateZ(-400px) rotateY(180deg);
+}
+.cube:hover .out_left{
+	transform: rotateY(90deg) translateZ(400px);
+}
+.cube:hover .out_right{
+	transform: rotateY(-90deg) translateZ(400px);
+}
+.cube:hover .out_top{
+	transform: rotateX(90deg) translateZ(400px);
+}
+.cube:hover .out_bottom{
+	transform: rotateX(-90deg) translateZ(400px);
+}

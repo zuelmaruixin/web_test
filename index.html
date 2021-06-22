@@ -1,0 +1,647 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>O型学霸</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/xiangce.css" />
+	<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="inc/colorbox.css" type="text/css" media="screen">
+	<script src="js/modernizr.js"></script>
+	<link rel="shortcut icon" href="../newweb/images/t2.png" type="image/x-icon">
+	<link rel="icon" href="../newweb/images/t2.png" type="image/x-icon">
+</head>
+<style>
+	@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+	
+	.slider-wrap {
+	  height: 100%;
+	  width: 100%;
+	  display: inline-block;
+	}
+	.slider-wrap .slider {
+	  position: absolute;
+	  width: 100%;
+	  left: 50px;
+	  top: 50px;
+	}
+	
+	.slider-item {
+	  width: 530px;
+	  padding: 20px 0 25px 30px;
+	  border-radius: 10px;
+	  background-color: rgba(255, 255, 255, 0.99);
+	  display: flex;
+	  justify-content: flex-start;
+	  position: absolute;
+	  opacity: 0;
+	  z-index: 0;
+	  box-shadow: 0 4px 9px #f1f1f4;
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	}
+	.slider-item .animation-card_image {
+	  max-width: 60px;
+	  max-height: 60px;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  border-radius: 50%;
+	  box-shadow: 0 4px 9px rgba(241, 241, 244, 0.72);
+	  background-color: #ffffff;
+	}
+	.slider-item .animation-card_image img {
+	  width: 53px;
+	  height: 53px;
+	  border-radius: 50%;
+	  object-fit: cover;
+	}
+	.slider-item .animation-card_content {
+	  width: 100%;
+	  max-width: 374px;
+	  margin-left: 26px;
+	  font-family: "Open Sans", sans-serif;
+	}
+	.slider-item .animation-card_content .animation-card_content_title {
+	  color: #4a4545;
+	  font-size: 16px;
+	  font-weight: 400;
+	  letter-spacing: -0.18px;
+	  line-height: 24px;
+	  margin: 0;
+	}
+	.slider-item .animation-card_content .animation-card_content_description {
+	  color: #696d74;
+	  font-size: 15px;
+	  font-weight: 300;
+	  letter-spacing: normal;
+	  line-height: 24px;
+	  margin: 10px 0 0 0;
+	}
+	.slider-item .animation-card_content .animation-card_content_city {
+	  font-size: 11px;
+	  margin: 10px 0 0 0;
+	  font-size: 12px;
+	  font-weight: 500;
+	  text-transform: uppercase;
+	  color: #696d74;
+	}</style>
+<body id="top">
+	<header class="s-header">
+		<div class="header-logo">
+			<a style="display: inline-block;font-size: 25px;" href="../newweb/html/index.html">注册</a>
+			<span style="font-size: 25px;">  |  </span>
+			<a style="display: inline-block;font-size: 25px;" href="../newweb/html/index.html">登录</a>
+		</div>
+		<nav class="header-nav">
+			<a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+			<h3>Navigate to</h3>
+			<div class="header-nav__content">
+				<ul class="header-nav__list">
+					<li><a class="smoothscroll" href="#home" title="home">首页</a></li>
+					<li><a class="smoothscroll" href="#up" title="about">提分简介(1)</a></li>
+					<li><a class="smoothscroll" href="#steps" title="3steps">提分简介(2)</a></li>
+					<li><a class="smoothscroll" href="#works" title="works">关于我们</a></li>
+					<li><a class="smoothscroll" href="#services" title="services">平台愿景</a></li>
+					<li><a class="smoothscroll" href="#contact" title="contact">联系报名</a></li>
+				</ul>
+				<p>助力实现教育资源合理分配，让每一个渴望知识的孩子获取更高品质的教育</p>
+			</div>
+		</nav>
+		<a class="header-menu-toggle" href="#0">
+			<span class="header-menu-icon"></span>
+		</a>
+	</header>
+	<!-- home
+		================================================== -->
+	<section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/back.jpg"
+		data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+		<div class="home-content">
+			<div class="wrap">
+				<div class="cube">
+					<div class="out_front">
+						<img src="images/t2.png" class="pic">
+					</div>
+					<div class="out_back">
+						<img src="images/t2.png" class="pic">
+					</div>
+					<div class="out_left">
+						<img src="images/t2.png" class="pic">
+					</div>
+					<div class="out_right">
+						<img src="images/t2.png" class="pic">
+					</div>
+					<div class="out_top">
+						<img src="images/t2.png" class="pic">
+					</div>
+					<div class="out_bottom">
+						<img src="images/t2.png" class="pic">
+					</div>
+				</div>
+			</div>
+			<div class="row home-content__main">
+				<h1 style="margin-top: 230px; font-size: 90px;">
+					O型学霸
+				</h1>
+				<h3>
+					<span style="margin-top: -30px;font-size: 4vw;">让每一个学生时代充满幸福且自信</span>
+				</h3>
+				<div class="home-content__video">
+					<a class="video-link" href="./images/QQ视频20210328022708.mp4" data-lity>
+						<span class="video-text">Watch Video</span>
+					</a>
+				</div>
+				<div class="home-content__button">
+					<a href="#up" class="smoothscroll btn btn--primary btn--large">
+						更多介绍
+					</a>
+					<a href="#contact" class="smoothscroll btn  btn--large">
+						立刻提分
+					</a>
+				</div>
+			</div> <!-- end home-content__main -->
+			<div class="home-content__scroll">
+				<a href="#about" class="scroll-link smoothscroll">
+					更多
+				</a>
+			</div>
+		</div> <!-- end home-content -->
+	</section> <!-- end s-home -->
+	<!-- 高校介绍
+================================================== -->
+	<section style="background-color:rgba(0,0,0,0.9); " id="up" class="s-clients target-section " data-parallax="scroll"
+		data-image-src="images/portfolio/20130406090426930.jpg" data-natural-width=3000 data-natural-height=2000
+		data-position-y=center>
+		<div class="row section-header text-center narrow" data-aos="fade-up">
+			<div class="col-full">
+				<h3 class="subhead">精选211，985最强高分学霸</h3>
+				<h3 class="subhead">前期接受重点中学教师实战教学经验</h3>
+				<h3 class="subhead">进行一对一精准提分辅导</h3>
+				<h1 class="display-1">我们的学霸来自于</h1>
+			</div>
+		</div> <!-- end section-header -->
+		<div class="row clients-wrap" data-aos="fade-up">
+			<div class="col-twelve">
+				<ul class="clients">
+					<li><a class="tsu" href="#0">清华大学</a></li>
+					<li><a href="#0">北京大学</a></li>
+					<li><a href="#0">南京大学</a></li>
+					<li><a href="#0">上海财经大学</a></li>
+					<li><a href="#0">中国人民大学</a></li>
+					<li><a href="#0">武汉大学</a></li>
+					<li><a href="#0">中山大学</a></li>
+					<li><a href="#0">厦门大学</a></li>
+					<li><a href="#0">中南大学</a></li>
+					<li><a href="#0">武汉大学</a></li>
+					<li><a href="#0">中南财经政法大学</a></li>
+					<li><a href="#0">上海交通大学</a></li>
+					<li><a href="#0">四川大学</a></li>
+					<li><a href="#0">中国科学技术大学</a></li>
+					<li><a href="#0">华中科技大学</a></li>
+					<li><a href="#0">复旦大学</a></li>
+					<li><a href="#0">......</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- 提分数据
+================================================== -->
+<section style="background-color:rgba(0,0,0,0.8); " id="up" class="s-clients target-section " data-parallax="scroll"
+data-image-src="images/banner_lib.jpg" data-natural-width=3000 data-natural-height=2000
+data-position-y=center>
+		<div class="row section-header text-center narrow" data-aos="fade-up">
+			<h2 style="font-size: 30px;margin-top: -80px;float: left;" class="subhead">提分数据 && 用户评价</h3>
+		<div  class="row clients-wrap" data-aos="fade-up">
+			
+			<div class="col-twelve">
+				<div style="background: rgba(0,0,0,0.9);border-radius: 20p;">
+			
+					<div style="margin-top: 500px;" class="numCount" style="display: inline-block;">
+						<ul class="clearfix">
+							<li>
+								<div class="item">
+									<div class="numU"><span class="numCX" data-startVal="0" data-endVal="363"
+											data-speed="4" data-decimals="0" id="mumC1">0</span></div>
+									<div class="indc">学霸数量</div>
+								</div>
+							</li>
+							<li>
+								<div class="item">
+									<div class="numU"><span class="numCX" data-startVal="0" data-endVal="2020"
+											data-speed="4" data-decimals="0" id="mumC2">0</span><sub
+											class="unitC"></sub></div>
+									<div class="indc">学员数量</div>
+								</div>
+							</li>
+							<li>
+								<div class="item">
+									<div class="numU"><span class="numCX" data-startVal="0" data-endVal="30"
+											data-speed="4" data-decimals="0" id="mumC3">0</span><sub
+											class="unitC">%</sub></div>
+									<div class="indc">提分幅度</div>
+								</div>
+							</li>
+							<li>
+								<div class="item">
+									<div class="numU"><span class="numCX" data-startVal="0" data-endVal="5000"
+											data-speed="4" data-decimals="0" id="mumC4">0</span><sup
+											class="unitC">+</sup></div>
+									<div class="indc">收获好评</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				
+				<div>
+					<div class="slider-wrap">
+						<div id="card-slider" class="slider">
+						  <div class="slider-item">
+							  <div class="animation-card_image">
+								  <img src="https://www.occamedu.com/img/icons/step1.png" alt="">
+							  </div>
+							  <div class="animation-card_content">
+								  <h4 class="animation-card_content_title title-2">周城宇</h4>
+								  <p class="animation-card_content_description p-2">O型学霸们都很负责，并富有热情，授课方式轻快活泼，帮助我提升了相当一部分成绩</p>
+								  <p class="animation-card_content_city">河南省商丘中学</p>
+							  </div>
+						  </div>
+						  <div class="slider-item">
+							<div class="animation-card_image">
+								<img src="https://www.occamedu.com/img/icons/step3.png" alt="">
+							</div>
+							<div class="animation-card_content">
+								<h4 class="animation-card_content_title title-2">熊竹</h4>
+								<p class="animation-card_content_description p-2">O型学霸们都很负责，并富有热情，授课方式轻快活泼，帮助我提升了相当一部分成绩</p>
+								<p class="animation-card_content_city">山东省实验中学</p>
+							</div>
+						</div>
+						<div class="slider-item">
+							<div class="animation-card_image">
+								<img src="https://www.occamedu.com/img/icons/step1.png" alt="">
+							</div>
+							<div class="animation-card_content">
+								<h4 class="animation-card_content_title title-2">林林</h4>
+								<p class="animation-card_content_description p-2">O型学霸们都很负责，并富有热情，授课方式轻快活泼，帮助我提升了相当一部分成绩</p>
+								<p class="animation-card_content_city">青岛二中</p>
+							</div>
+						</div>
+						<div class="slider-item">
+							<div class="animation-card_image">
+								<img src="https://www.occamedu.com/img/icons/step3.png" alt="">
+							</div>
+							<div class="animation-card_content">
+								<h4 class="animation-card_content_title title-2">胡云开</h4>
+								<p class="animation-card_content_description p-2">O型学霸们都很负责，并富有热情，授课方式轻快活泼，帮助我提升了相当一部分成绩</p>
+								<p class="animation-card_content_city">山东省泰安一中</p>
+							</div>
+						</div>
+						<div class="slider-item">
+							<div class="animation-card_image">
+								<img src="https://www.occamedu.com/img/icons/step2.png" alt="">
+							</div>
+							<div class="animation-card_content">
+								<h4 class="animation-card_content_title title-2">马瑞欣</h4>
+								<p class="animation-card_content_description p-2">O型学霸们都很负责，并富有热情，授课方式轻快活泼，帮助我提升了相当一部分成绩</p>
+								<p class="animation-card_content_city">山东省泰安一中</p>
+							</div>
+						</div>
+					  </div>
+					  </div>  
+					
+				</div>
+	</section>
+	<!-- 提分步骤
+================================================== -->
+<section style="background-color:rgba(0,0,0,0.8); " id="up" class="s-clients target-section " data-parallax="scroll"
+data-image-src="../newweb/images/BE6722693B3BC46415290CC514C_60689166_C4100.jpg" data-natural-width=3000 data-natural-height=2000
+data-position-y=center>
+		<div class="container">
+			<h1 style="color: #056736;font-size: 4vw;">三步精准提分</h1>
+			<br>
+			<p style="font-size: 2.5vw;">通过我们与学霸，名师的交流探讨，帮助你花费最少的时间获得最大的收益</p>
+			<div id="timelineContainer_2" class="timelineContainer">
+				<br class="clear">
+				<div class="timelineMajor">
+					<h2 class="timelineMajorMarker"><span>培养兴趣</span></h2>
+					<dl class="timelineMinor">
+						<dt style="font-size: 1.6vw;" id="born"><a>兴趣是最好的老师</a></dt>
+						<dd class="timelineEvent" id="bornEX" style="display:none;">
+							<p style="font-size: 1.6vw;">
+								学习是一件非常辛苦的事情，产生兴趣更是一件大脑综合高速运转的研究成果，O型学霸想把学习困惑和叛逆期交织的焦虑改变成乐观自信的成长经历，你会信吗？你不会信又或者会信？取决于你是否真正地站在孩子的角度深度思考。所以我们的兴趣课程不接待焦虑且不断给孩子制造焦虑的家长。试课或授课，教学秘书会全程听课复盘，不断地去捕捉孩子的兴奋点、自信源、学科漏洞、失落状态的微表情，高效的为孩子匹配学习效率达到最快最轻松的人选。兴趣课，我们会更多地从每一个知识点的交互出发，更深入地了解到孩子的实际需求，替他做出选择需要实践更需要智慧。
+							</p>
+							<br class="clear">
+						</dd>
+					</dl>
+				</div>
+				<div class="timelineMajor">
+					<h2 class="timelineMajorMarker"><span>掌握方法</span></h2>
+					<dl class="timelineMinor">
+						<dt style="font-size: 1.6vw;" id="realized"><a>往往是最后一把钥匙打开了门</a></dt>
+						<dd class="timelineEvent" id="realizedEX" style="display:none;">
+							<p style="font-size: 1.6vw;">
+								学习过程中需要大量的知识摄入才能逐步具备归纳总结的能力，而学习方法及习惯的成效更是参差不齐，如何分析出哪一类学习方法更适合自己的思维习惯和做题效率，便是方法和习惯课程的精髓，才会开启学习方法和习惯的最佳匹配。
+							</p>
+							<br class="clear">
+						</dd>
+					</dl>
+				</div>
+				<div class="timelineMajor">
+					<h2 class="timelineMajorMarker"><span>聚焦提分</span></h2>
+					<dl class="timelineMinor">
+						<dt style="font-size:19.2px;" style="color: #056736; font-size: 19.2px;">好的分数是选择相信我们和你自己努力的水到渠成
+						</dt>
+						<p style="font-size: 1.6vw;margin-left: 30px;text-indent: 2em;">
+							O型学霸最没有难度的课程便是提分，不仅具备真实高效的实战技巧，更重要的是每次能耐心地针对错题、知识点漏洞
+							&nbsp;&nbsp;进行梳理强化的同时，还能为你打开更多的解体思路和方法以及如何快速拿分和应试技能。
+						</p>
+					</dl>
+				</div>
+				<br class="clear">
+			</div>
+	</section>
+
+
+	<!-- 我们是谁
+================================================== -->
+	<section style="background-color:rgba(0,0,0,0.6);" id="works" class="  target-section" data-parallax="scroll"
+		data-image-src="images/QQ图片20210328025947.jpg" data-natural-width=3000 data-natural-height=2000
+		data-position-y=center>
+		<div class="row section-header bit-narrow" data-aos="fade-up">
+			<div class="col-full">
+				<h3 style="margin-top: 30px" class="subhead">我们是谁</h3>
+				<h2 class="display-1">
+					我们是OCCAM（奥卡姆），是由中南财经政法大学在校学生在2017年创立，我们具有专业的软件开发团队，专注于教育大数据，跨界创意和新媒体运营等领域
+				</h2>
+			</div>
+		</div> <!-- end section-header -->
+		<div class="row bit-narrow" data-aos="fade-up">
+			<div class="col-full">
+				<p class="lead">
+					2018.12 创新项目“基于 lpv6 的网络服务质量监控及多权限消息预警的研究与实现”喜获 2018 年“赛尔网络下一代互联网技术创新项目”立项并获得最高额度经费十万元资助<br> 2017.11
+					在第三届全国研究生移动终端应用设计创新大赛全国总决赛中作品“易诊通～基于蓝牙室内定位的就诊提示跟踪系统”，获得全国三等奖<br>2017.8在中华人民共和国教育部易班全国共建高校开发者大会中代表中南财经政法大学参会获得创意赛第一名<br>
+					2016.11 在大学生创新创业训练计划项目中作品《基于语义的智能校园信息微平台的研究与应用》 获得国家级立项,并在全国各大本科院校的 845 项展示项目作品中脱颖而出，被中华人民共和国教育部遴选为
+					2016年年会参展项目<br> 2016.9 在“中国电子商务协会、杭州市商务委员会、杭州经济技术开发区共同主办的"第九届 · 中国大学生计算机设计大赛"中，项目《互联网内容推荐系统
+					获得大数据分析（企业命题）组全国二等奖<br> 2016. 4 论文“ Efficiency Evaluation on the Application of Internet Plus in
+					College Teaching Based on Analytic H ierarchy Process and Multiple Linear Regression " ,
+					已被第二届现代教育与社会科学国际会议收录，并将被 ISTP 检索
+				</p>
+			</div>
+	</section> <!-- end s-about -->
+	<!-- 我们的愿景
+================================================== -->
+	<section id='services' class="s-services target-section darker">
+		<div class="row section-header bit-narrow" data-aos="fade-up">
+			<div class="col-full">
+				<h3 class="subhead">我们的愿景</h3>
+				<h1 class="display-1">
+					我们希望，学霸们带给中学生的不仅仅是考纲内的知识。而是全方位的素养提升；
+					<br>
+					我们希望助力教育资源合理化分配，
+					<br>
+					我们希望在于各方的合作中，共同成长
+				</h1>
+			</div>
+		</div> <!-- end section-header -->
+		<div class="row bit-narrow services block-1-2 block-tab-full">
+			<div class="col-block item-service" data-aos="fade-up">
+				<div class="item-service__icon">
+					<i class="icon-star"></i>
+				</div>
+				<div class="item-service__text">
+					<h3 class="item-title">学生</h3>
+					<p style="font-size: 18px">
+						学生们从学霸身上获取的良好的学习习惯，对高中生的学习大有裨益；正向的价值观，能够引导他们正确的看待世界；直接的大学信息，扫清他们的择校困惑。更重要的是，通过长期的耳濡目染，学生能与朱同赤，与兰同香
+					</p>
+				</div>
+			</div>
+			<div class="col-block item-service" data-aos="fade-up">
+				<div class="item-service__icon">
+					<i class="icon-group"></i>
+				</div>
+				<div class="item-service__text">
+					<h3 class="item-title">教育资源</h3>
+					<p style="font-size: 18px">通过科技创新将优质的教育资源（精华）跨时空精准匹配到最匮乏的区域和人群,逐步实现优质教育资源的零差距
+					</p>
+				</div>
+			</div>
+			<div class="col-block item-service" data-aos="fade-up">
+				<div class="item-service__icon">
+					<i class="icon-pie-chart"></i>
+				</div>
+				<div class="item-service__text">
+					<h3 class="item-title">老师</h3>
+					<p style="font-size: 18px">帮助重点中学老师，发掘更多保有初心的老师，并帮助他们获得额外收益，启发社会各界重视并感恩教师的无私奉献
+					</p>
+				</div>
+			</div>
+			<div class="col-block item-service" data-aos="fade-up">
+				<div class="item-service__icon">
+					<i class="icon-image"></i>
+				</div>
+				<div class="item-service__text">
+					<h3 class="item-title">学霸</h3>
+					<p style="font-size: 18px">
+						为激发大学生认可知识的价值学以致用、自力更生、自我丰富，重视信誉、责任和担当。特别邀请具有教育事业情怀的公益人士同行，开启大学生个人价值变现的对等平台，共同构建良好的守约重诚氛围
+					</p>
+				</div>
+			</div>
+		</div> <!-- end services -->
+	</section> <!-- end s-services -->
+	<!-- 写在最后
+================================================== -->
+	<section class="s-testimonials">
+		<div class="row testimonials narrow">
+			<div class="col-full testimonials__slider" data-aos="fade-up">
+				<div class="testimonials__slide">
+					<h1 style="text-align: center;color: #056736; ">写在最后</h1>
+					<br>
+					<p>知识的精准匹配与传输是对中学生最明智最有价值的投资<br>我们希望用创新的方式让普惠成为可能，在社会转型中承担责任创造价值</p>
+					<div class="testimonials__author">
+						赵柳荫
+						<span>ZUEL, Stu.</span>
+					</div>
+				</div> <!-- end testimonials__slide -->
+				<div class="testimonials__slide">
+					<h1 style="text-align: center;color: #056736;">写在最后</h1>
+					<br>
+					<p>教育是一个讲究情感关怀和信心激励的领域
+						越是处于一个机器“横行”的人工智能时代
+						就越是呼唤着人性独特的同理心和情感交互等
+						这些真正有温度的行为</p>
+					<div class="testimonials__author">
+						苑心怡
+						<span>RUC, Pgt Stu.</span>
+					</div>
+				</div> <!-- end testimonials__slide -->
+
+				<div class="testimonials__slide">
+					<h1 style="text-align: center;color: #056736;">写在最后</h1>
+					<br>
+					<p>人工智能给教育带来了挑战
+
+						但是这些挑战也给我们一个更大的
+
+						重新创造奇迹的机会</p>
+					<div class="testimonials__author">
+						马瑞欣
+						<span>ZUEL, Stu.</span>
+					</div>
+				</div> <!-- end testimonials__slide -->
+			</div> <!-- end testimonials__slider -->
+		</div> <!-- end testimonials -->
+	</section> <!-- end s-testimonials -->
+	<!-- 联系我们
+================================================== -->
+	<section id="contact" class="s-contact target-section">
+		<div class="row section-header narrow" data-aos="fade-up">
+			<div class="row contact-main" data-aos="fade-up">
+				<h1>联系我们</h1>
+				<img src="https://www.occamedu.com/img/online.png">
+			</div>
+	</section> <!-- end s-contact -->
+	<!-- footer
+================================================== -->
+	<footer>
+		<div class="row">
+			<div class="col-full ss-copyright">
+				<div style="color: #f5f5ff ;font-size: 35px;font-weight: 600 ;">OCCAM  ———</div>
+				
+				<div style="color: #f5f5ff ;font-size: 35px;font-weight: 600 ;">Do More With Less For You</div>
+				<span style="margin-top: 60px;">鄂ICP备18022944号 | 奥卡姆（武汉）科技有限公司 版权所有 | 客服邮箱：service@occamedu.com</span>
+			</div>
+		</div>
+		<div class="ss-go-top">
+			<a class="smoothscroll btn btn--primary btn--large" title="Back to Top" href="#top">返回顶部</a>
+		</div>
+	</footer>
+	<!-- photoswipe background
+================================================== -->
+	<div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+		<div class="pswp__bg"></div>
+		<div class="pswp__scroll-wrap">
+			<div class="pswp__container">
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+			</div>
+			<div class="pswp__ui pswp__ui--hidden">
+				<div class="pswp__top-bar">
+					<div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
+						title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
+						title="Share"></button> <button class="pswp__button pswp__button--fs"
+						title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
+						title="Zoom in/out"></button>
+					<div class="pswp__preloader">
+						<div class="pswp__preloader__icn">
+							<div class="pswp__preloader__cut">
+								<div class="pswp__preloader__donut"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+					<div class="pswp__share-tooltip"></div>
+				</div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+				<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+				<div class="pswp__caption">
+					<div class="pswp__caption__center"></div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- end photoSwipe background -->
+	<!-- Java Script
+================================================== -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gsap/1.19.1/TweenMax.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+	<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="inc/colorbox.js"></script>
+	<script type="text/javascript" src="js/timeliner.min.js"></script>
+	<script src="js/count.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			var countCXArr = [];
+			var countCX = function () {
+				$('.numCount').each(function (i, dom) {
+					if (countCXArr[i] && countCXArr[i] === true) {
+						return;
+					}
+					var sT;
+					var ncTop;
+					sT = $(window).scrollTop();
+					ncTop = $(dom).offset().top;
+					var id, decimals, startVal, endVal, duration;
+					if (sT > ncTop - $(window).height() && sT < ncTop) {
+						$(dom).find('.numCX').each(function () {
+							id = $(this).attr('id');
+							decimals = $(this).attr('data-decimals'),
+								startVal = $(this).attr('data-startVal'),
+								endVal = $(this).attr('data-endVal'),
+								duration = $(this).attr('data-speed');
+							new CountUp(id, startVal, endVal, decimals, duration, {
+								useEasing: true,//效果
+								separator: ''//数字分隔符
+							}).start();// target：目标元素id, startVal：你想要开始的值, endVal：你想要到达的值, decimals：小数位数，默认值为0, duration：动画持续时间为秒，默认值为2, options：选项的可选对象
+							countCXArr[i] = true;
+						})
+					}
+				})
+			}
+			countCX();
+			$(window).on("scroll", function () {
+				countCX();
+			})
+		});
+	</script>
+	<script>
+		$(document).ready(function () {
+			$.timeliner({
+				startOpen: ['#19550828EX', '#19630828EX']
+			});
+			$.timeliner({
+				timelineContainer: '#timelineContainer_2'
+			});
+			// Colorbox Modal
+			$(".CBmodal").colorbox({ inline: true, initialWidth: 100, maxWidth: 682, initialHeight: 100, transition: "elastic", speed: 750 });
+		});
+	</script>
+	<script>
+		var cards = $('#card-slider .slider-item').toArray();
+		
+		startAnim(cards);
+		
+		function startAnim(array){
+			if(array.length >= 4 ) {
+				TweenMax.fromTo(array[0], 0.5, {x:0, y: 0, opacity:0.75}, {x:0, y: -120, opacity:0, zIndex: 0, delay:0.03, ease: Cubic.easeInOut, onComplete: sortArray(array)});
+		
+				TweenMax.fromTo(array[1], 0.5, {x:79, y: 125, opacity:1, zIndex: 1}, {x:0, y: 0, opacity:0.75, zIndex: 0, boxShadow: '-5px 8px 8px 0 rgba(82,89,129,0.05)', ease: Cubic.easeInOut});
+		
+				TweenMax.to(array[2], 0.5, {bezier:[{x:0, y:250}, {x:65, y:200}, {x:79, y:125}], boxShadow: '-5px 8px 8px 0 rgba(82,89,129,0.05)', zIndex: 1, opacity: 1, ease: Cubic.easeInOut});
+		
+				TweenMax.fromTo(array[3], 0.5, {x:0, y:400, opacity: 0, zIndex: 0}, {x:0, y:250, opacity: 0.75, zIndex: 0, ease: Cubic.easeInOut}, );
+			} else {
+				$('#card-slider').append('<p>Sorry, carousel should contain more than 3 slides</p>')
+			}
+		}
+		
+		function sortArray(array) {
+			clearTimeout(delay);
+			var delay = setTimeout(function(){
+				var firstElem = array.shift();
+				array.push(firstElem);
+				return startAnim(array); 
+			},3000)
+		}
+		</script>
+</body>
